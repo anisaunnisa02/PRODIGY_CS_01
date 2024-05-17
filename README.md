@@ -1,10 +1,13 @@
 Caesar Cipher Program
+
 This is a simple Python program that implements the Caesar Cipher for encrypting and decrypting messages. 
+
 The program consists of two main functions: caesar_cipher_encrypt and caesar_cipher_decrypt, along with a main function that provides a user interface for encrypting and decrypting messages.
 
 Functions
 
 i) caesar_cipher_encrypt(text, shift)
+
    Encrypts a given text using the Caesar Cipher method.
 
    Parameters:
@@ -22,6 +25,7 @@ i) caesar_cipher_encrypt(text, shift)
    # Output: "Hello, World!"
 
 ii) caesar_cipher_decrypt(text, shift)
+
     Decrypts a given text using the Caesar Cipher method.
 
     Parameters:
