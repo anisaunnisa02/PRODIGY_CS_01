@@ -23,6 +23,7 @@ i) caesar_cipher_encrypt(text, shift)
    Example:
    
    caesar_cipher_decrypt("Khoor, Zruog!", 3)
+   
    # Output: "Hello, World!"
 
 ii) caesar_cipher_decrypt(text, shift)
@@ -42,10 +43,12 @@ ii) caesar_cipher_decrypt(text, shift)
     Example:
     
   caesar_cipher_decrypt("Khoor, Zruog!", 3)
+  
   # Output: "Hello, World!"
   
 Main Function
  main():
+ 
  
 Provides a user interface for the Caesar Cipher program. It allows the user to choose between encryption and decryption, input the message, and specify the shift value.
 
@@ -60,9 +63,13 @@ c) Based on the user's choice, the program outputs either the encrypted or decry
 Example Usage:
 
 Welcome to the Caesar Cipher program!
+
 Do you want to (e)ncrypt or (d)ecrypt a message? e
+
 Enter your message: Hello, World!
+
 Enter the shift value: 3
+
 Encrypted message: Khoor, Zruog!
 
 
