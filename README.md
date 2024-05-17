@@ -13,6 +13,7 @@ i) caesar_cipher_encrypt(text, shift)
    Parameters:
    
    a) text (str): The input text to be encrypted.
+   
    b) shift (int): The number of positions each letter in the text is shifted.
 
    Returns:
@@ -31,6 +32,7 @@ ii) caesar_cipher_decrypt(text, shift)
     Parameters:
     
  a) text (str): The input text to be decrypted.
+ 
  b) shift (int): The number of positions each letter in the text was shifted.
  
     Returns:
@@ -50,7 +52,9 @@ Provides a user interface for the Caesar Cipher program. It allows the user to c
 User Interaction:
 
 a) The user is prompted to choose whether they want to encrypt or decrypt a message.
+
 b) The user is then asked to input the message and the shift value.
+
 c) Based on the user's choice, the program outputs either the encrypted or decrypted message.
 
 Example Usage:
